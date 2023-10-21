@@ -2,6 +2,7 @@ package org.model;
 
 import lombok.*;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
 
@@ -10,7 +11,7 @@ import java.util.Objects;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Customer implements Comparable<Customer> {
+public class Customer implements Comparable<Customer>, Serializable {
     private Integer customerId;
     private String name;
     private String email;

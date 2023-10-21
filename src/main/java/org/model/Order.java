@@ -2,6 +2,7 @@ package org.model;
 
 import lombok.*;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 @Getter
@@ -9,7 +10,7 @@ import java.util.Objects;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Order implements Comparable<Order> {
+public class Order implements Comparable<Order>, Serializable {
     private String orderId;
     private String orderDate;
     private Double totalAmount;
