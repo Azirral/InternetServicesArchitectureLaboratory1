@@ -2,6 +2,7 @@ package org.example;
 
 import org.model.Customer;
 import org.model.Order;
+import org.model.OrderDto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +24,26 @@ public class Main {
 
         // Print the Set of all orders
         allOrders.forEach(order -> System.out.println("Order: " + order.getOrderId()));
+
+        //Task3: Use a single stream pipeline to filter, sort, and print the collection
+        allOrders.stream()
+                .filter(order -> order.getOrderDate().compareTo("2023-10-15") >= 0)  // Filter by a selected property (order date >= "2023-10-15")
+                .sorted((order1, order2) -> Double.compare(order1.getTotalAmount(), order2.getTotalAmount()))  // Sort by a different property (totalAmount)
+                .forEach(order -> System.out.println("Order: " + order.getOrderId()));
+
+        //Task4: Use a single stream pipeline to transform, sort, and collect into a List of DTOs
+        List<OrderDto> orderDtos = allOrders.stream()
+                .map(order -> OrderDto.builder()
+                        .orderId(order.getOrderId())
+                        .orderDate(order.getOrderDate())
+                        .totalAmount(order.getTotalAmount())
+                        .customer(order.getCustomer().getName())
+                        .build())
+                .sorted()
+                .collect(Collectors.toList());
+
+        // Use a second stream pipeline to print the List of DTOs
+        orderDtos.forEach(dto -> System.out.println("Order DTO: " + dto));
 
     }
 
@@ -67,7 +88,7 @@ public class Main {
         orders.add(Order.builder()
                 .orderId("Order" + customerId + "-1")
                 .orderDate("2023-10-15")
-                .totalAmount(100.0)
+                .totalAmount(200.0)
                 .customer(customer)
                 .build());
 

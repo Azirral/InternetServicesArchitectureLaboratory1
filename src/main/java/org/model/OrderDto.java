@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class OrderDto {
+public class OrderDto implements Comparable<OrderDto> {
     private String orderId;
     private String orderDate;
     private Double totalAmount;
