@@ -42,7 +42,7 @@ public class Order implements Comparable<Order> {
                 "orderId='" + orderId + '\'' +
                 ", orderDate='" + orderDate + '\'' +
                 ", totalAmount=" + totalAmount +
-                ", customer=" + customer +
+                ", customer=" + customer.getCustomerId() +
                 '}';
     }
 }
