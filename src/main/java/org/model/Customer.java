@@ -29,7 +29,7 @@ public class Customer implements Comparable<Customer>, Serializable {
 
     @Override
     public int compareTo(Customer otherCustomer) {
-        return this.customerId.compareTo(otherCustomer.customerId);
+        return this.name.compareTo(otherCustomer.name);
     }
 
     @Override

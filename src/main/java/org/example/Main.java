@@ -26,13 +26,14 @@ public class Main {
                 .collect(Collectors.toSet());
 
         // Print the Set of all orders
-        allOrders.forEach(order -> System.out.println("Order: " + order.getOrderId()));
+        allOrders.forEach(order -> System.out.println("Order: " + order.toString()));
 
+        System.out.println();
         //Task4: Use a single stream pipeline to filter, sort, and print the collection
         allOrders.stream()
                 .filter(order -> order.getOrderDate().compareTo("2023-10-15") >= 0)  // Filter by a selected property (order date >= "2023-10-15")
                 .sorted((order1, order2) -> Double.compare(order1.getTotalAmount(), order2.getTotalAmount()))  // Sort by a different property (totalAmount)
-                .forEach(order -> System.out.println("Order: " + order.getOrderId()));
+                .forEach(order -> System.out.println("Order: " + order.toString()));
 
         //Task5: Use a single stream pipeline to transform, sort, and collect into a List of DTOs
         List<OrderDto> orderDtos = allOrders.stream()
@@ -57,9 +58,9 @@ public class Main {
         if (loadedCustomers != null) {
             // Print the loaded list of customers with their elements (orders)
             for (Customer customer : loadedCustomers) {
-                System.out.println("Customer: " + customer.getName());
+                System.out.println("Customer: " + customer.toString());
                 for (Order order : customer.getOrders()) {
-                    System.out.println("   Order: " + order.getOrderId());
+                    System.out.println("   Order: " + order.toString());
                 }
             }
         } else {
