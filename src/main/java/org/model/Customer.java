@@ -17,6 +17,11 @@ public class Customer implements Comparable<Customer>, Serializable {
     private String email;
     private List<Order> orders;
 
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(customerId, name, email, orders);
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
