@@ -77,10 +77,10 @@ public class Main {
         customers.parallelStream()
                 .forEach(customer -> {
                     customThreadPool.execute(() -> {
-                        System.out.println("Processing customer: " + customer.getName());
                         // Simulate workload with Thread.sleep
                         try {
                             TimeUnit.SECONDS.sleep(1);
+                            System.out.println("Processing customer: " + customer.getName());
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
