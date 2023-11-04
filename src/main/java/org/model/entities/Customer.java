@@ -1,20 +1,35 @@
-package org.model;
+package org.model.entities;
 
+import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.GenericGenerator;
 
 import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
+import java.util.UUID;
 
 @Getter
 @Setter
-@AllArgsConstructor
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
 @NoArgsConstructor
 @Builder
+@Entity
+@Table(name = "customers")
 public class Customer implements Comparable<Customer>, Serializable {
-    private Integer customerId;
+    @Id
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(
+            name = "UUID",
+            strategy = "org.hibernate.id.UUIDGenerator"
+    )
+    @Column(name = "customer_id", updatable = false, nullable = false)
+    private UUID customerId;
+    @Column(name = "name")
     private String name;
+    @Column(name = "email")
     private String email;
+    @OneToMany(mappedBy = "customer", fetch = FetchType.LAZY)
     private List<Order> orders;
 
     @Override

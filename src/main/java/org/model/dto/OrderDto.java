@@ -1,6 +1,8 @@
-package org.model;
+package org.model.dto;
 
 import lombok.*;
+
+import java.util.UUID;
 
 @Getter
 @Setter
@@ -8,7 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class OrderDto implements Comparable<OrderDto> {
-    private String orderId;
+    private UUID orderId;
     private String orderDate;
     private Double totalAmount;
     private String customer;

@@ -1,19 +1,35 @@
-package org.model;
+package org.model.entities;
 
+import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.GenericGenerator;
 
 import java.io.Serializable;
 import java.util.Objects;
+import java.util.UUID;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@Entity
+@Table(name = "orders")
 public class Order implements Comparable<Order>, Serializable {
-    private String orderId;
+    @Id
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(
+            name = "UUID",
+            strategy = "org.hibernate.id.UUIDGenerator"
+    )
+    @Column(name = "order_id", updatable = false, nullable = false)
+    private UUID orderId;
+    @Column(name = "order_date")
     private String orderDate;
+    @Column(name = "total_amount")
     private Double totalAmount;
+    @ManyToOne
+    @JoinColumn(name = "customer_id") // Define the foreign key column
     private Customer customer;
 
     @Override
