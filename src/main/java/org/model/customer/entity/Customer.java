@@ -1,8 +1,9 @@
-package org.model.entities;
+package org.model.customer.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
+import org.model.order.entity.Order;
 
 import java.io.Serializable;
 import java.util.List;

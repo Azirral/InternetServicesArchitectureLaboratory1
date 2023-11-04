@@ -1,4 +1,4 @@
-package org.model.dto;
+package org.model.order.dto;
 
 import lombok.*;
 

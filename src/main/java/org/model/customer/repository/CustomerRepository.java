@@ -1,5 +1,5 @@
-package org.model.repository;
-import org.model.entities.Customer;
+package org.model.customer.repository;
+import org.model.customer.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
