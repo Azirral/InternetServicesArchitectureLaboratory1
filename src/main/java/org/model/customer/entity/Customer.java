@@ -30,7 +30,7 @@ public class Customer implements Comparable<Customer>, Serializable {
     private String name;
     @Column(name = "email")
     private String email;
-    @OneToMany(mappedBy = "customer", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "customer",cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Order> orders;
 
     @Override
