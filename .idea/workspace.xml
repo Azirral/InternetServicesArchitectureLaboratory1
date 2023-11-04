@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3974ce2-63a0-49bc-891d-48e2f9f06237" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/order/dto/OrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/customer/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/order/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/customer/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/order/repository/OrderRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="d3974ce2-63a0-49bc-891d-48e2f9f06237" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +91,7 @@
       <workItem from="1698004557060" duration="1028000" />
       <workItem from="1698049853749" duration="4017000" />
       <workItem from="1698657799981" duration="3677000" />
-      <workItem from="1699122721264" duration="924000" />
+      <workItem from="1699122721264" duration="1778000" />
     </task>
     <servers />
   </component>
