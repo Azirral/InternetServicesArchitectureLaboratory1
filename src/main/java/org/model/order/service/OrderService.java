@@ -50,6 +50,7 @@ public class OrderService {
     }
 
     @CacheEvict
+    @Transactional
     public void deleteElement(UUID customerId, UUID orderId) {
         // Delete the element
         Order order = orderRepository.findById(orderId)
