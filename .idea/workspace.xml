@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3974ce2-63a0-49bc-891d-48e2f9f06237" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/customer/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/customer/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/customer/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/customer/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/customer/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/customer/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/order/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/order/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/order/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +94,8 @@
       <workItem from="1698049853749" duration="4017000" />
       <workItem from="1698657799981" duration="3677000" />
       <workItem from="1699122721264" duration="7594000" />
+      <workItem from="1701111517578" duration="599000" />
+      <workItem from="1701612645411" duration="2637000" />
     </task>
     <servers />
   </component>
