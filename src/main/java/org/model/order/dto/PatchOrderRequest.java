@@ -4,10 +4,13 @@ import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
-@NoArgsConstructor
 @Builder
-public class OrderCreateUpdateDto {
+@NoArgsConstructor
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
+@ToString
+@EqualsAndHashCode
+
+public class PatchOrderRequest {
     private String orderDate;
     private Double totalAmount;
 }

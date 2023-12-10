@@ -18,12 +18,7 @@ import java.util.UUID;
 @Table(name = "orders")
 public class Order implements Comparable<Order>, Serializable {
     @Id
-    @GeneratedValue(generator = "UUID")
-    @GenericGenerator(
-            name = "UUID",
-            strategy = "org.hibernate.id.UUIDGenerator"
-    )
-    @Column(name = "order_id", updatable = false, nullable = false)
+    @Column(name = "order_id")
     private UUID orderId;
     @Column(name = "order_date")
     private String orderDate;

@@ -6,10 +6,10 @@ import java.util.UUID;
 
 @Getter
 @Setter
-@AllArgsConstructor
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
 @NoArgsConstructor
 @Builder
-public class OrderCollectionDto {
+public class GetOrderResponse {
     private UUID orderId;
     private String orderDate;
     private Double totalAmount;

@@ -1,17 +1,18 @@
 package org.model.initialize;
 
 import jakarta.annotation.PostConstruct;
+import org.springframework.beans.factory.InitializingBean;
 import org.model.customer.entity.Customer;
-import org.model.customer.service.CustomerService;
+import org.model.customer.service.api.CustomerService;
 import org.model.order.entity.Order;
-import org.model.order.service.OrderService;
+import org.model.order.service.api.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.UUID;
 
 @Component
-public class DataInitializer {
+public class DataInitializer implements InitializingBean{
     private final CustomerService customerService;
     private final OrderService orderService;
 
@@ -21,8 +22,8 @@ public class DataInitializer {
         this.orderService = orderService;
     }
 
-    @PostConstruct
-    public void initData() {
+    @Override
+    public void afterPropertiesSet() throws Exception{
         // Populate the database with sample data using the service classes
         Customer customer1 = Customer.builder()
                 .customerId(UUID.randomUUID())
@@ -51,9 +52,9 @@ public class DataInitializer {
                 .build();
 
         // Save the entities to the database using the service methods
-        customerService.save(customer1);
-        customerService.save(customer2);
-        orderService.save(order1);
-        orderService.save(order2);
+        customerService.create(customer1);
+        customerService.create(customer2);
+        orderService.create(order1);
+        orderService.create(order2);
     }
 }
