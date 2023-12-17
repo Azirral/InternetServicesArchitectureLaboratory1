@@ -1,13 +1,10 @@
 package org.model;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.core.util.DefaultIndenter;
-import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
-import com.fasterxml.jackson.databind.SerializationFeature;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.gateway.route.RouteLocator;
+import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
@@ -16,15 +13,37 @@ public class CommerceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CommerceApplication.class, args);
 	}
-	/**
-	 * @return managed bean for configured {@link ObjectWriter}
-	 */
+
 	@Bean
-	public ObjectWriter objectWriter() {
-		return new ObjectMapper()
-				.enable(SerializationFeature.INDENT_OUTPUT)
-				.setDefaultPropertyInclusion(JsonInclude.Include.NON_NULL)
-				.writer(new DefaultPrettyPrinter()
-						.withArrayIndenter(DefaultIndenter.SYSTEM_LINEFEED_INSTANCE));
+	public RouteLocator routeLocator(
+			RouteLocatorBuilder builder,
+			@Value("${model.order.url}") String orderUrl,
+			@Value("${model.customer.url}") String customerUrl,
+			@Value("${model.gateway.host}") String host
+	) {
+		return builder
+				.routes()
+				.route("customers", route -> route
+						.host(host)
+						.and()
+						.path(
+								"/api/customers/{id}",
+								"/api/customer/{id}",
+								"/api/customers"
+						)
+						.uri(customerUrl)
+				)
+				.route("orders", route -> route
+						.host(host)
+						.and()
+						.path(
+								"/api/orders",
+								"/api/orders/**",
+								"/api/customers/{id}/orders",
+								"/api/customers/{id}/orders/**"
+						)
+						.uri(orderUrl)
+				)
+				.build();
 	}
 }
