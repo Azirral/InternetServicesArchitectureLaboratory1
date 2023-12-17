@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3974ce2-63a0-49bc-891d-48e2f9f06237" name="Changes" comment="" />
+    <list default="true" id="d3974ce2-63a0-49bc-891d-48e2f9f06237" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../customer/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/customers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/request.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/customers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/request.http" beforeDir="false" afterPath="$PROJECT_DIR$/../order/request.http" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Studia moje/Semestr 5/Internet Services Architecture/Laboratory1/spring/Laboratory1",
+    "last_opened_file_path": "C:/Studia moje/Semestr 5/Internet Services Architecture/Laboratory1/spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,13 +88,13 @@
     <configuration name="request | Delete order" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="7" requestIdentifier="Delete order" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="request | Get All orders" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" requestIdentifier="Get All orders" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="request | Get all customers" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="8" requestIdentifier="Get all customers" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="request | Get single customer not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="10" requestIdentifier="Get single customer not existing" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="request | Get single customer" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="9" requestIdentifier="Get single customer" runType="Run single request">
+    <configuration name="request | Get single order" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="2" requestIdentifier="Get single order" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -95,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.request | Get single order" />
+        <item itemvalue="HTTP Request.request | Get All orders" />
         <item itemvalue="HTTP Request.request | Delete order" />
         <item itemvalue="HTTP Request.request | Delete customer" />
         <item itemvalue="HTTP Request.request | Get all customers" />
-        <item itemvalue="HTTP Request.request | Get single customer not existing" />
-        <item itemvalue="HTTP Request.request | Get single customer" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +134,7 @@
       <workItem from="1702230794085" duration="2542000" />
       <workItem from="1702288133179" duration="566000" />
       <workItem from="1702392293222" duration="30000" />
-      <workItem from="1702829239832" duration="1343000" />
+      <workItem from="1702829239832" duration="2665000" />
     </task>
     <servers />
   </component>

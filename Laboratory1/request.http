@@ -2,7 +2,7 @@
 GET http://localhost:8080/api/orders
 
 ### Get single order
-GET http://localhost:8080/api/orders/ce578a37-52f0-4795-b33e-272d96efd1f2
+GET http://localhost:8080/api/orders/0524663f-a494-4800-a3c5-c41902d28dc8
 
 ### Get single order, not existing
 GET http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e

@@ -1,0 +1,14 @@
+{
+  "orders": [
+    {
+      "orderId": "0524663f-a494-4800-a3c5-c41902d28dc8",
+      "orderDate": "2023-10-15",
+      "totalAmount": 100.0
+    },
+    {
+      "orderId": "f54dbc31-95f2-434b-82f3-a3658e33bf8f",
+      "orderDate": "2023-10-16",
+      "totalAmount": 150.0
+    }
+  ]
+}

@@ -1,3 +1,39 @@
+GET http://localhost:8080/api/orders/0524663f-a494-4800-a3c5-c41902d28dc8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-17T212354.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-17T212342.200.json
+
+###
+
+GET http://localhost:8080/api/orders/ce578a37-52f0-4795-b33e-272d96efd1f2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-17T212337.404.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-17T212333.200.json
+
+###
+
 DELETE http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
@@ -416,42 +452,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-12-09T235657.200.json
-
-###
-
-GET http://localhost:8080/api/orders/6af51201-694a-49da-8244-1ac1e885d72c
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-09T235653.404.json
-
-###
-
-GET http://localhost:8080/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31ea0/orders
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-09T235648.404.json
-
-###
-
-GET http://localhost:8080/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31ea0/orders
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-09T235644.404.json
-
-###
-
-GET http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-09T235641.404.json
 
 ###
 
