@@ -1,0 +1,19 @@
+{
+  "orders": [
+    {
+      "orderId": "41d61f82-d41c-4d2f-98dd-4bc60a795d0e",
+      "orderDate": "2023-10-15",
+      "totalAmount": 100.0
+    },
+    {
+      "orderId": "e00ced27-edcd-449c-9faf-be151f02aa2f",
+      "orderDate": "2023-10-16",
+      "totalAmount": 150.0
+    },
+    {
+      "orderId": "60e84414-3704-4ea7-948c-a4320390652e",
+      "orderDate": "2023-11-12",
+      "totalAmount": 120.0
+    }
+  ]
+}
