@@ -1,9 +1,0 @@
-{
-  "customers": [
-    {
-      "customerId": "7822dec6-ac89-47d4-b35d-93fdb2ac2e71",
-      "name": "Customer 2",
-      "email": "customer2@example.com"
-    }
-  ]
-}

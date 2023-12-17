@@ -2,13 +2,13 @@
 GET http://localhost:8081/api/orders
 
 ### Get single order
-GET http://localhost:8081/api/orders/41d61f82-d41c-4d2f-98dd-4bc60a795d0e
+GET http://localhost:8081/api/orders/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
 
 ### Get single order, not existing
 GET http://localhost:8081/api/orders/60e84414-3704-4ea7-948c-a4320390652e
 
 ### Get customer orders
-GET http://localhost:8081/api/customers/d4383fd4-d6ce-4481-bd3c-2e91c54a2620/orders
+GET http://localhost:8081/api/customers/c4804e0f-769e-4ab9-9ebe-0578fb4f00a6/orders
 
 ### Get customer orders, empty
 GET http://localhost:8081/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31eb0/orders
@@ -30,7 +30,7 @@ DELETE http://localhost:8081/api/orders/60e84414-3704-4ea7-948c-a4320390652e
 GET http://localhost:8081/api/customers
 
 ### Get single customer
-GET http://localhost:8081/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc24
+GET http://localhost:8081/api/customers/c4804e0f-769e-4ab9-9ebe-0578fb4f00a6
 
 ### Get single customer not existing
 GET http://localhost:8081/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc23

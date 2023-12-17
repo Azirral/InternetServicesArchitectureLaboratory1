@@ -5,7 +5,178 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3974ce2-63a0-49bc-891d-48e2f9f06237" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Laboratory1/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order/target/classes/org/model/order/initialize/InitializeData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-09T235657.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-09T235657.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-09T235716.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-09T235716.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-09T235733.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-09T235733.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-09T235745.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-09T235745.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-09T235747.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-09T235747.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-09T235751.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-09T235751.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-09T235753.400.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-09T235753.400.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T000020.400.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T000020.400.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T000437.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T000437.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T000439.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T000439.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T000442.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T000442.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T000454.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T000454.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T000459.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T000459.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T000506.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T000506.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T000510.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T000510.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T000512.400.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T000512.400.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T111810.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T111810.500.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T111831.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T111831.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T111846.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T111846.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T111932.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T111932.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T112042.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T112042.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T112130.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T112130.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T112208.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T112208.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T112245.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T112245.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-10T112318.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-10T112318.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105409.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105409.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105413.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105413.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105428.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105428.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105440.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105440.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105445.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105445.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105454.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105454.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105503.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105503.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105517.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105517.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105553.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105553.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105600.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105600.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105615.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105615.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105621.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105621.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105636.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105636.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105658.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105658.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-11T105717.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-11T105717.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-17T212333.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-17T212333.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-17T212337.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-17T212337.404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-17T212342.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-17T212342.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/2023-12-17T212354.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/2023-12-17T212354.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/request.http" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/request.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/CommerceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/CommerceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/controller/api/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/controller/api/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/controller/impl/CustomerDefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/controller/impl/CustomerDefaultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/dto/GetCustomerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/dto/GetCustomerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/dto/GetCustomersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/dto/GetCustomersResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/dto/PatchCustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/dto/PatchCustomerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/dto/PutCustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/dto/PutCustomerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/function/CustomerToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/function/CustomerToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/function/CustomersToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/function/CustomersToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/function/RequestToCustomerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/function/RequestToCustomerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/function/UpdateCustomerWithRequestFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/function/UpdateCustomerWithRequestFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/service/api/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/service/api/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/customer/service/impl/CustomerDefaultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/customer/service/impl/CustomerDefaultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/initialize/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/initialize/DataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/controller/api/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/controller/api/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/controller/impl/OrderDefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/controller/impl/OrderDefaultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/dto/GetOrderResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/dto/GetOrderResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/dto/GetOrdersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/dto/GetOrdersResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/dto/PatchOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/dto/PatchOrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/dto/PutOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/dto/PutOrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/function/OrderToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/function/OrderToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/function/OrdersToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/function/OrdersToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/function/RequestToOrderFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/function/RequestToOrderFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/function/UpdateOrderWithRequestFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/function/UpdateOrderWithRequestFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/service/api/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/service/api/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/order/service/impl/OrderDefaultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/order/service/impl/OrderDefaultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/java/org/model/repository/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/java/org/model/repository/CrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/src/test/java/org/springframework/boot/BootApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/src/test/java/org/springframework/boot/BootApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/CommerceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/CommerceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/controller/api/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/controller/api/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/controller/impl/CustomerDefaultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/controller/impl/CustomerDefaultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/GetCustomerResponse$GetCustomerResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/GetCustomerResponse$GetCustomerResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/GetCustomerResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/GetCustomerResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/GetCustomersResponse$Customer$CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/GetCustomersResponse$Customer$CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/GetCustomersResponse$Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/GetCustomersResponse$Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/GetCustomersResponse$GetCustomersResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/GetCustomersResponse$GetCustomersResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/GetCustomersResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/GetCustomersResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/PatchCustomerRequest$PatchCustomerRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/PatchCustomerRequest$PatchCustomerRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/PatchCustomerRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/PatchCustomerRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/PutCustomerRequest$PutCustomerRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/PutCustomerRequest$PutCustomerRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/dto/PutCustomerRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/dto/PutCustomerRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/entity/Customer$CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/entity/Customer$CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/function/CustomerToResponseFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/function/CustomerToResponseFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/function/CustomersToResponseFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/function/CustomersToResponseFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/function/RequestToCustomerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/function/RequestToCustomerFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/function/UpdateCustomerWithRequestFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/function/UpdateCustomerWithRequestFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/repository/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/service/api/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/service/api/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/customer/service/impl/CustomerDefaultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/customer/service/impl/CustomerDefaultService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/initialize/DataInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/initialize/DataInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/controller/api/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/controller/api/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/controller/impl/OrderDefaultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/controller/impl/OrderDefaultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/GetOrderResponse$GetOrderResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/GetOrderResponse$GetOrderResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/GetOrderResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/GetOrderResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/GetOrdersResponse$GetOrdersResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/GetOrdersResponse$GetOrdersResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/GetOrdersResponse$Order$OrderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/GetOrdersResponse$Order$OrderBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/GetOrdersResponse$Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/GetOrdersResponse$Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/GetOrdersResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/GetOrdersResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/PatchOrderRequest$PatchOrderRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/PatchOrderRequest$PatchOrderRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/PatchOrderRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/PatchOrderRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/PutOrderRequest$PutOrderRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/PutOrderRequest$PutOrderRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/dto/PutOrderRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/dto/PutOrderRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/entity/Order$OrderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/entity/Order$OrderBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/function/OrderToResponseFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/function/OrderToResponseFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/function/OrdersToResponseFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/function/OrdersToResponseFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/function/RequestToOrderFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/function/RequestToOrderFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/function/UpdateOrderWithRequestFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/function/UpdateOrderWithRequestFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/repository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/service/api/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/service/api/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/order/service/impl/OrderDefaultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/order/service/impl/OrderDefaultService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/classes/org/model/repository/CrudRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/classes/org/model/repository/CrudRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratory1/target/test-classes/org/springframework/boot/BootApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../commerce/target/test-classes/org/springframework/boot/BootApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/request.http" beforeDir="false" afterPath="$PROJECT_DIR$/../order/request.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/org/model/customer/controller/api/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/org/model/customer/controller/api/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/CommerceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/CommerceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/controller/api/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/customer/controller/api/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/controller/impl/CustomerDefaultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/customer/controller/impl/CustomerDefaultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/GetCustomerResponse$GetCustomerResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/GetCustomerResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/GetCustomersResponse$Customer$CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/GetCustomersResponse$Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/GetCustomersResponse$GetCustomersResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/GetCustomersResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/PatchCustomerRequest$PatchCustomerRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/PatchCustomerRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/PutCustomerRequest$PutCustomerRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/dto/PutCustomerRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/entity/Customer$CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/customer/entity/Customer$CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/customer/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/function/CustomerToResponseFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/function/CustomersToResponseFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/function/RequestToCustomerFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/function/UpdateCustomerWithRequestFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/customer/repository/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/service/api/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/customer/service/api/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/customer/service/impl/CustomerDefaultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/customer/service/impl/CustomerDefaultService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/initialize/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/order/entity/Order$OrderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/order/entity/Order$OrderBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/order/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/order/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/order/service/api/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/order/service/api/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/order/service/impl/OrderDefaultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/target/classes/org/model/order/service/impl/OrderDefaultService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/classes/org/model/repository/CrudRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/target/test-classes/org/springframework/boot/BootApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +211,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Studia moje/Semestr 5/Internet Services Architecture/Laboratory1/spring/customer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Studia moje/Semestr 5/Internet Services Architecture/Laboratory1/spring/customer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org" />
@@ -125,6 +296,7 @@
       <workItem from="1702230794085" duration="622000" />
       <workItem from="1702828938382" duration="1908000" />
       <workItem from="1702841822317" duration="800000" />
+      <workItem from="1702845089801" duration="750000" />
     </task>
     <servers />
   </component>

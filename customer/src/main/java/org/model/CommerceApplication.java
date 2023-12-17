@@ -25,7 +25,7 @@ public class CommerceApplication {
 	 * @return configured endpoint for character module
 	 */
 	@Bean
-	public RestTemplate restTemplate(@Value("${model.user.url}") String baseUrl) {
+	public RestTemplate restTemplate(@Value("${model.order.url}") String baseUrl) {
 		return new RestTemplateBuilder().rootUri(baseUrl).build();
 	}
 }
