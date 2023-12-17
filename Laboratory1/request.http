@@ -2,13 +2,13 @@
 GET http://localhost:8080/api/orders
 
 ### Get single order
-GET http://localhost:8080/api/orders/41d61f82-d41c-4d2f-98dd-4bc60a795d0e
+GET http://localhost:8080/api/orders/ce578a37-52f0-4795-b33e-272d96efd1f2
 
 ### Get single order, not existing
 GET http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
 
 ### Get customer orders
-GET http://localhost:8080/api/customers/d4383fd4-d6ce-4481-bd3c-2e91c54a2620/orders
+GET http://localhost:8080/api/customers/284caec3-86d5-4f2e-aecb-6cac35ad3b5f/orders
 
 ### Get customer orders, empty
 GET http://localhost:8080/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31eb0/orders
@@ -30,10 +30,10 @@ DELETE http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
 GET http://localhost:8080/api/customers
 
 ### Get single customer
-GET http://localhost:8080/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc24
+GET http://localhost:8080/api/customers/284caec3-86d5-4f2e-aecb-6cac35ad3b5f
 
 ### Get single customer not existing
 GET http://localhost:8080/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc23
 
 ### Delete customer
-DELETE http://localhost:8080/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc24
+DELETE http://localhost:8080/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc23
