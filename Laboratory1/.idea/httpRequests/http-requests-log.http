@@ -1,0 +1,457 @@
+DELETE http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105717.404.json
+
+###
+
+DELETE http://localhost:8080/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105658.404.json
+
+###
+
+GET http://localhost:8080/api/customers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105636.200.json
+
+###
+
+DELETE http://localhost:8080/api/customers/284caec3-86d5-4f2e-aecb-6cac35ad3b5f
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105621.404.json
+
+###
+
+GET http://localhost:8080/api/customers/284caec3-86d5-4f2e-aecb-6cac35ad3b5f
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105615.200.json
+
+###
+
+GET http://localhost:8080/api/customers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105600.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105553.200.json
+
+###
+
+DELETE http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105517.200.json
+
+###
+
+PUT http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Content-Type: application/json
+Content-Length: 108
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "orderDate": "2023-11-12",
+  "totalAmount": 120.0,
+  "customer":"aca2e55b-04a2-4587-b8ef-5a16ffa6cc24"
+}
+
+###
+
+GET http://localhost:8080/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31eb0/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105503.404.json
+
+###
+
+GET http://localhost:8080/api/customers/284caec3-86d5-4f2e-aecb-6cac35ad3b5f/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105454.200.json
+
+###
+
+GET http://localhost:8080/api/customers/d4383fd4-d6ce-4481-bd3c-2e91c54a2620/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105445.404.json
+
+###
+
+GET http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105440.404.json
+
+###
+
+GET http://localhost:8080/api/orders/ce578a37-52f0-4795-b33e-272d96efd1f2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105428.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105413.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-11T105409.200.json
+
+###
+
+GET http://localhost:8080/api/customers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T112318.200.json
+
+###
+
+DELETE http://localhost:8080/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc24
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T112245.404.json
+
+###
+
+GET http://localhost:8080/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc24
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T112208.200.json
+
+###
+
+GET http://localhost:8080/api/customers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T112130.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T112042.200.json
+
+###
+
+DELETE http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T111932.200.json
+
+###
+
+PUT http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Content-Type: application/json
+Content-Length: 108
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "orderDate": "2023-11-12",
+  "totalAmount": 120.0,
+  "customer":"aca2e55b-04a2-4587-b8ef-5a16ffa6cc24"
+}
+
+###
+
+GET http://localhost:8080/api/orders/41d61f82-d41c-4d2f-98dd-4bc60a795d0e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T111846.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T111831.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T111810.500.json
+
+###
+
+PUT http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T000512.400.json
+
+###
+
+GET http://localhost:8080/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31eb0/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T000510.404.json
+
+###
+
+GET http://localhost:8080/api/customers/d4383fd4-d6ce-4481-bd3c-2e91c54a2620/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T000506.200.json
+
+###
+
+GET http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T000459.404.json
+
+###
+
+GET http://localhost:8080/api/orders/73793f29-6a9a-46f6-b5e7-264a55485aca
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T000454.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T000442.200.json
+
+###
+
+GET http://localhost:8080/api/orders/d14b9574-4de3-40b3-b9b2-dc6030b5894f
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T000439.404.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T000437.200.json
+
+###
+
+PUT http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-10T000020.400.json
+
+###
+
+PUT http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235753.400.json
+
+###
+
+GET http://localhost:8080/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31eb0/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235751.404.json
+
+###
+
+GET http://localhost:8080/api/customers/4ffd32a9-16cb-458b-a867-bc52517d0e47/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235747.200.json
+
+###
+
+GET http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235745.404.json
+
+###
+
+GET http://localhost:8080/api/orders/d14b9574-4de3-40b3-b9b2-dc6030b5894f
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235733.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235716.200.json
+
+###
+
+GET http://localhost:8080/api/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235657.200.json
+
+###
+
+GET http://localhost:8080/api/orders/6af51201-694a-49da-8244-1ac1e885d72c
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235653.404.json
+
+###
+
+GET http://localhost:8080/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31ea0/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235648.404.json
+
+###
+
+GET http://localhost:8080/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31ea0/orders
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235644.404.json
+
+###
+
+GET http://localhost:8080/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-09T235641.404.json
+
+###
+

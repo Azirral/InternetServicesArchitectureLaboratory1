@@ -1,0 +1,9 @@
+{
+  "customers": [
+    {
+      "customerId": "5c9b6269-f21a-4970-8394-43bd86ac1dcb",
+      "name": "Customer 2",
+      "email": "customer2@example.com"
+    }
+  ]
+}
