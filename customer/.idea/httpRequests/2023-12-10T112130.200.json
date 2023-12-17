@@ -1,0 +1,14 @@
+{
+  "customers": [
+    {
+      "customerId": "aca2e55b-04a2-4587-b8ef-5a16ffa6cc24",
+      "name": "Customer 1",
+      "email": "customer1@example.com"
+    },
+    {
+      "customerId": "7822dec6-ac89-47d4-b35d-93fdb2ac2e71",
+      "name": "Customer 2",
+      "email": "customer2@example.com"
+    }
+  ]
+}
