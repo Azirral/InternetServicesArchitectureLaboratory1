@@ -26,14 +26,5 @@ Content-Type: application/json
 ### Delete order
 DELETE http://localhost:8082/api/orders/60e84414-3704-4ea7-948c-a4320390652e
 
-### Get all customers
-GET http://localhost:8082/api/customers
-
-### Get single customer
-GET http://localhost:8082/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc24
-
-### Get single customer not existing
-GET http://localhost:8082/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc23
-
 ### Delete customer
-DELETE http://localhost:8082/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc24
+DELETE http://localhost:8082/api/customers/c4804e0f-769e-4ab9-9ebe-0578fb4f00a6
