@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-12-09T22:28:46.611+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/api/orders/6af51201-694a-49da-8244-1ac1e885d71c"
+}
