@@ -1,0 +1,32 @@
+server:
+    port: 8083
+model:
+  gateway:
+    host: http://localhost:8083
+
+  customer:
+    url: http://localhost:8080
+  order:
+    url: http://localhost:8081
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: cors_route
+          uri: http://localhost:4200
+          predicates:
+            - Path=/service/**
+          filters:
+            - RemoveRequestHeader=Host
+          metadata:
+            cors:
+              allowedOrigins: '*'
+              allowedMethods:
+                - GET
+                - POST
+                - PUT
+                - DELETE
+              allowedHeaders: '*'
+              maxAge: 30
+

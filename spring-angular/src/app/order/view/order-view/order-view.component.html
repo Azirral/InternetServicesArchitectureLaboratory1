@@ -1,0 +1,25 @@
+<article *ngIf="order" xmlns="http://www.w3.org/1999/html">
+    <header><h2>{{order.date}}</h2></header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="row mb-2">
+                    <div class="col-6">
+                        <strong>Total amount</strong>
+                    </div>
+                    <div class="col-6">
+                        <a>{{order.amount}}</a>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6">Customer name</div>
+                    <div [routerLink]="['/customs', order.customer.id]" class="info">{{order.customer.name}}</div>
+                </div>
+                <div>
+                  <button [routerLink]="['orders', order.id, 'edit']"]>Edit</button>
+                  <button (click)="onDelete(order)">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>

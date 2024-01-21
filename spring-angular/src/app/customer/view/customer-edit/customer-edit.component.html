@@ -1,0 +1,33 @@
+<article *ngIf="customer">
+    <header><h2>Edit customer</h2></header>
+
+    <form #form="ngForm" (ngSubmit)="onSubmit()" class="container">
+        <div class="row">
+            <div class="col-4 p-2">
+                <div>
+                    <label for="name">Name:</label>
+                    <input [(ngModel)]="customer.name" id="name" name="name"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4 p-2">
+                <div>
+                    <label for="email">Email:</label>
+                    <input [(ngModel)]="customer.email" id="email" name="email"/>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-2 p-2">
+                <button type="submit">Update</button>
+            </div>
+            <div class="col-2 p-2">
+                <button (click)="form.resetForm(original)" type="button">Reset</button>
+            </div>
+        </div>
+    </form>
+</article>

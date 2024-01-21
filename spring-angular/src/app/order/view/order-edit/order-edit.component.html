@@ -1,0 +1,46 @@
+<article *ngIf="order">
+    <header><h2>Edit order</h2></header>
+
+    <form class="container"  #form="ngForm" (ngSubmit)="onSubmit()">
+        <div class="row">
+            <div class="col-4 p-2">
+                <div>
+                    <label for="date">Order date: </label>
+                    <input id="date" name="date" [(ngModel)]="order.date"/>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-4 p-2">
+                <div>
+                    <label for="amount">Total amount: </label>
+                    <input id="amount" name="amount" [(ngModel)]="order.amount"/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-4 p-2">
+            <fieldset *ngIf="customers">
+              <legend>Customer:</legend>
+              <div *ngFor="let customer of customers.customers">
+                <label>
+                  <input [(ngModel)]="order.customer_id" [value]="customer.id" name="city" type="radio"/>
+                  {{customer.name}}
+                </label>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 p-2">
+                <button type="submit">Update</button>
+            </div>
+            <br/>
+            <div class="col-2 p-2">
+                <button type="button" (click)="form.resetForm(original)">Reset</button>
+            </div>
+        </div>
+    </form>
+</article>

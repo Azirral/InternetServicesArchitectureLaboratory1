@@ -1,0 +1,30 @@
+### Get All orders
+GET http://localhost:8081/orders
+
+### Get single order
+GET http://localhost:8081/orders/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+
+### Get single order, not existing
+GET http://localhost:8082/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+
+### Get customer orders
+GET http://localhost:8081/c4804e0f-769e-4ab9-9ebe-0578fb4f00a6
+
+### Get customer orders, empty
+GET http://localhost:8082/api/customers/d4e718ba-aabc-48d1-9ae8-d6f82bd31eb0/orders
+
+### Create new order
+PUT http://localhost:8082/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+Content-Type: application/json
+
+{
+  "date": "2023-11-12",
+  "amount": 120.0,
+  "customer":"aca2e55b-04a2-4587-b8ef-5a16ffa6cc24"
+}
+
+### Delete order
+DELETE http://localhost:8082/api/orders/60e84414-3704-4ea7-948c-a4320390652e
+
+### Delete customer
+DELETE http://localhost:8082/api/customers/c4804e0f-769e-4ab9-9ebe-0578fb4f00a6

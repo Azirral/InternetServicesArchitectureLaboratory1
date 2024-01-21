@@ -1,0 +1,11 @@
+### Get all customers
+GET http://localhost:8080/customers
+
+### Get single customer
+GET http://localhost:8080/customers/c4804e0f-769e-4ab9-9ebe-0578fb4f00a6
+
+### Get single customer not existing
+GET http://localhost:8081/api/customers/aca2e55b-04a2-4587-b8ef-5a16ffa6cc23
+
+### Delete customer
+DELETE http://localhost:8081/api/customers/c4804e0f-769e-4ab9-9ebe-0578fb4f00a6
